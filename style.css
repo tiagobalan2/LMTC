@@ -1,28 +1,32 @@
 @import url('https://fonts.cdnfonts.com/css/helvetica-neue-55');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@100;200;300;400;500&display=swap');
 
+
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;1,300;1,700&family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@100;200;300;400;500&display=swap');
 body{
     min-height: 100vh;
     font-size: 62.5%;
-    font-family: 'Poppins', sans-serif;
-    
+    font-family: 'Poppins', sans-serif;  
+    background-color: rgba(128, 128, 128, 0.432);  
 }
 
+
 .container-img{
-    height: 130vh;
-    background-image: url('imgs/preciso_de_uma_imagem_de_capa_com_uma_imagem_tec.jpg');
+    height: 160vh;
+    background-image: url('imgs/bg-2.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
 }
-
 
 .projects-section, .team-section {
-    background-color: rgba(255, 255, 255, 0.825);
+    max-width: 1000px;
+    margin: auto;
     padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 100px;
 }
+
 
 .project-gallery, .team-gallery {
     display: grid;
@@ -30,16 +34,19 @@ body{
     gap: 10px;
 }
 
+
 figure {
     position: relative;
     margin: 0;
 }
+
 
 figure img {
     width: 100%;
     height: auto;
     border-radius: 8px;
 }
+
 
 figcaption {
     position: absolute;
@@ -52,11 +59,13 @@ figcaption {
     text-align: center;
 }
 
+
 footer {
     background-color: #333;
     color: #fff;
     padding: 10px;
 }
+
 
 nav ul {
     list-style: none;
@@ -64,20 +73,24 @@ nav ul {
     justify-content: space-around;
 }
 
+
 nav a {
     text-decoration: none;
     color: #fff;
 }
 
+
 footer {
     padding: 20px;
 }
+
 
 .light-section {
     background-color: #635e5e;
     padding: 15px;
     text-align: center;
 }
+
 
 .dark-section {
     background-color: #333;
@@ -86,17 +99,22 @@ footer {
     text-align: center;
 }
 
+
 .dark-section p {
     margin: 0;
 }
 
+
 .subtitulo{
     font-size: 50px;
+    text-align: center;
 }
+
 
 .tituluzinho{
     font-size: 20px;
 }
+
 
 .azul{
     background-color: rgb(26, 26, 139);
@@ -106,9 +124,23 @@ footer {
     border-radius: 10px;
 }
 
+
 .p-sobre-equipe{
     font-size: 22px;
     margin-top: 10px;
     margin-bottom: 20px;
     text-align: center;
 }
+
+
+.missoesvalores{
+    text-align: center;
+    font-size: 20px;
+}
+
+
+.div-missoesvalores{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
